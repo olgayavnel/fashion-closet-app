@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Fashion Closet</title>
+        <link href="/styles/styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <h1 class="header_title">Fashion Closet</h1>
+                <h2 class="header_subtitle">Unique look for daily routine</h22>
+            </div>
+        </header>
+        <div>
+            <div class="actions">
+                <div class="actions__container">
+                    <input id="search-text" type="text" class="input" placeholder="Filter looks">
+                    <select id="filter-by" class="dropdown">
+                        <option value="byEdited">Sort by last edited</option>
+                        <option value="byCreated">Sort by recently created</option>
+                        <option value="alphabetical">Sort alphabetically</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="looks"></div>
+            <button id="create-look" class="button slide_right">Create a new look</button>
+        </div>
+        <script src="/scripts/index-bundle.js"></script>
+    </body>
+</html>

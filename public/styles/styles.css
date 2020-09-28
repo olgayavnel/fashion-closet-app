@@ -1,0 +1,177 @@
+/* Base Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.6%;
+    background: url('../images/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg') no-repeat center center fixed;;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+body {
+    color: fafafa;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 1.6rem;
+  }
+
+button {
+    cursor: pointer;
+  }
+  
+a {
+    color: rgb(237, 125, 194);
+  }
+
+/* Container */
+
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+  }
+
+/* Header */
+
+.header {
+    background: #43799c;
+    color: white;
+    padding: 1.6rem 0;
+  }
+
+.header_title {
+    font-size: 3.2rem;
+    margin-bottom: .4rem;
+}
+
+.header_subtitle {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+/* Actions Bar */
+
+.actions {
+    background-color: #F7F7F7;
+    border-bottom: 1px dashed #dedfe0;
+    padding: .8rem
+}
+
+.actions__container {
+    align-items: center;
+    display: flex;
+    max-width: 60rem;
+    margin: 0 auto;
+    min-height: 3rem;
+    padding: 0 1.6rem;
+}
+
+.actions__container--spaced {
+    justify-content: space-between
+}
+
+/* Form Inputs */
+
+.input {
+    border: 1px solid #DEDFE0;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    height: 3rem;
+    margin-right: .8rem;
+    padding: .4rem .8rem;
+}
+
+.dropdown {
+    border-radius: 0;
+    border: 1px solid #DEDFE0;
+    background: white;
+    font-size: 1.4rem;
+    font-weight: 300;
+    height: 3rem;
+    margin-right: .8rem;
+}
+
+.button {
+    color: #add8e6;
+    border: 2px solid rgb(237, 125, 194);
+    border-radius: 5px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(237, 125, 194);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 rgb(237, 125, 194);
+  }
+
+/* Note editor */
+
+.title-input {
+    border: 1px solid #DEDFE0;
+    font-size: 2rem;
+    font-weight: 300;
+    display: block;
+    margin: 2.4rem 0;
+    padding: .8rem;
+    width: 100%;
+}
+
+.body-input {
+    border: 1px solid #DEDFE0;
+    font-family: inherit;
+    font-size: 1.6rem;
+    font-weight: 300;
+    display: block;
+    margin: 2.4rem 0;
+    min-height: 15rem;
+    padding: .8rem;
+    width: 100%;
+}
+
+/* Note List Item */
+
+.list-item {
+    text-decoration: none;
+    color: #333333;
+    background: #F7F7F7;
+    border: 1px solid #dedfe0;
+    margin: 1.6rem 0;
+    padding: 1.6rem;
+    display: block;
+    transition: background .3s ease;
+}
+
+.list-item:hover {
+    background: #eeeeee;
+}
+
+.list-item__title {
+    font-size: 1.8rem;
+    margin-bottom: .4rem
+}
+
+.list-item__subtitle {
+    color: #666;
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.empty-message {
+    text-align: center;
+    margin: 3.2rem 0;
+}
