@@ -115,7 +115,7 @@ a {
   }
   
   .slide_right:hover {
-    box-shadow: inset 400px 0 0 0 rgb(237, 125, 194);
+    box-shadow: inset 400px 0 0 1px rgb(237, 125, 194);
   }
 
 /* Note editor */
