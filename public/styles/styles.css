@@ -8,15 +8,11 @@
 
 html {
     font-size: 62.6%;
-    background: url('../images/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg') no-repeat center center fixed;;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 
 body {
     color: fafafa;
+    background-color: white;
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 1.6rem;
   }
@@ -174,4 +170,58 @@ a {
 .empty-message {
     text-align: center;
     margin: 3.2rem 0;
+}
+
+/* #input {
+    color: #add8e6;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#input:hover {
+    background-color: rgb(237, 125, 194);
+} */
+
+.file-upload {
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.file-upload__input {
+    display: none;
+}
+
+.file-upload__button {
+    -webkit-appearance: none;
+    background:  #efefef;
+    border: 2px solid rgb(237, 125, 194);
+    border-radius: 5px;
+    outline: none;
+    padding: 0.5em 0.8em;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    color: #add8e6;
+    font-size: 1em;
+    font-family: "Lucida Console", Monaco, monospace;
+    cursor: pointer;
+}
+
+.file-upload__button:active {
+    background: rgb(237, 125, 194);
+}
+
+.file-upload__label {
+    max-width: 250px;
+    font-size: 0.95em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
